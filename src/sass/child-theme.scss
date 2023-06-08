@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins&family=Raleway:wght@700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
 @import "theme/child_theme_variables";                   // <------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
 @import "assets/bootstrap5/bootstrap";                             // <------- Loads Bootstrap5
 @import "assets/understrap/theme/understrap";  // <------- Loads the Understrap defaults. Just a few classes to incorporate BS in WP
@@ -12,3 +14,4 @@
 @import "assets/understrap/theme/colors";           // <-------- This creates the necessary bootstrap color classes.
 @import "assets/understrap/theme/blocks";           // <-------- This adds Bootstrap styles to blocks.
 @import "assets/understrap/theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support
+
