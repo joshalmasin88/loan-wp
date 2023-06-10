@@ -1,12 +1,6 @@
 <?php
 
-/**
- * Template Name: Landing Page
- *
- * Template for displaying a page without sidebar even if a sidebar widget is published.
- *
- * @package Understrap
- */
+
 
 // Exit if accessed directly.
 defined('ABSPATH') || exit;
@@ -108,8 +102,57 @@ if (is_page_template('page-templates/no-title.php')) {
 								<p>The borrower submits a loan application to the bank, either in person, online, or through other channels. The application includes personal and financial information, such as income, employment history, credit score, and the purpose of the loan.</p>
 							</div>
 						</div>
+						<div class="row d-flex justify-content-center align-items-center">
+							<div class="col-md-6">
+								<h2 class="work-nums">02</h2>
+								<h3>Documentation and Verification</h3>
+								<p>The bank requests supporting documents from the borrower, such as identification proof, income statements, bank statements, and collateral details (if applicable). The bank verifies the information provided to assess the borrower's creditworthiness and eligibility for the loan.</p>
+							</div>
+							<div class="col-md-6">
+								<img src="<?php echo get_stylesheet_directory_uri() . '/imgs/left_hand.png' ?>" alt="">
+							</div>
+						</div>
+						<div class="row d-flex justify-content-center align-items-center">
+							<div class="col-md-6">
+								<img src="<?php echo get_stylesheet_directory_uri() . '/imgs/walet.png' ?>" alt="">
+							</div>
+							<div class="col-md-6">
+								<h2 class="work-nums">03</h2>
+								<h3>Credit Assessment</h3>
+								<p>The bank conducts a credit assessment to evaluate the borrower's creditworthiness and ability to repay the loan. This process involves analyzing the borrower's credit history, income stability, debt-to-income ratio, and other factors.</p>
+							</div>
+						</div>
+						<div class="row d-flex justify-content-center align-items-center">
+							<div class="col-md-6">
+								<h2 class="work-nums">04</h2>
+								<h3>Loan Approval</h3>
+								<p>If the borrower meets the bank's lending criteria and passes the credit assessment, the loan is approved. The bank determines the loan amount, interest rate, repayment term, and any associated fees.</p>
+							</div>
+							<div class="col-md-6">
+								<img src="<?php echo get_stylesheet_directory_uri() . '/imgs/complete-app.png' ?>" alt="">
+							</div>
+						</div>
+
 					</div>
+
+					<div class=" aboutus">
+						<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<h2>About us</h2>
+								<img src="<?php echo get_stylesheet_directory_uri() . '/imgs/aboutus.png'; ?>" alt="">
+								<p>QuickFunds- Your trusted financial partner for loans. Quick approvals, competitive rates, and personalized solutions to meet your unique needs. Empowering you to achieve your financial goals. Apply online today!</p>
+							</div>
+							<div class="col-md-6">
+								<!-- Widget Here -->
+							</div>
+						</div>
+						</div>
+
+					</div>
+
 				</main>
+				
 
 			</div><!-- #primary -->
 
