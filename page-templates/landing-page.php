@@ -90,6 +90,25 @@ if (is_page_template('page-templates/no-title.php')) {
 						</div>
 					</div>
 
+
+					<div class="wework container">
+						<div class="row workheadings">
+							<div class="col-md-6 mx-auto text-center">
+								<h2 class="work-heading">How we works?</h2>
+								<p>This is a process, how you can get loan for your self.</p>
+							</div>
+						</div>
+						<div class="row d-flex justify-content-center align-items-center">
+							<div class="col-md-6">
+								<img src="<?php echo get_stylesheet_directory_uri() . '/imgs/application.png' ?>" alt="">
+							</div>
+							<div class="col-md-6">
+								<h2 class="work-nums">01</h2>
+								<h3>Application</h3>
+								<p>The borrower submits a loan application to the bank, either in person, online, or through other channels. The application includes personal and financial information, such as income, employment history, credit score, and the purpose of the loan.</p>
+							</div>
+						</div>
+					</div>
 				</main>
 
 			</div><!-- #primary -->
