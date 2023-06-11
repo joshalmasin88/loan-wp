@@ -1,3 +1,25 @@
+.nav-link {
+  color:#494E4F;
+}
+
+.cta-nav {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2a6877;
+  border-radius: 50px;
+  padding: 12px 20px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border:0px;
+  letter-spacing: 0.5px;
+
+  /* Neutral/0 */
+
+  color: #ffffff;
+}
+
 .hero {
   margin-top: 8rem;
   margin-bottom: 8rem;
@@ -60,7 +82,7 @@
   }
 
   .view-more-service-btn {
-    margin-top:2.875rem;
+    margin-top: 2.875rem;
     margin-bottom: 1.8713rem;
     background: #2a6877;
     padding: 0.75rem 1.25rem;
@@ -72,9 +94,7 @@
   }
 }
 
-
 .wework {
-
   margin-bottom: 8rem;
 
   .workheadings {
@@ -91,35 +111,34 @@
   }
 }
 
-
 .aboutus {
   padding-top: 5.625rem;
   padding-bottom: 5.625rem;
 
-  background: linear-gradient(100.33deg, rgba(201, 228, 222, 0.6) -36.88%, rgba(206, 228, 224, 0.463495) 21.99%, rgba(208, 228, 224, 0.414385) 30.82%, rgba(223, 227, 231, 0) 102.68%);
+  background: linear-gradient(
+    100.33deg,
+    rgba(201, 228, 222, 0.6) -36.88%,
+    rgba(206, 228, 224, 0.463495) 21.99%,
+    rgba(208, 228, 224, 0.414385) 30.82%,
+    rgba(223, 227, 231, 0) 102.68%
+  );
 }
-
 
 footer {
   height: 30.75rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   h4 {
     color: white;
   }
   p {
     color: white;
   }
-
-
-  
 }
 
-
-
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
   .hero {
     height: 100%;
     h1 {
@@ -129,13 +148,14 @@ footer {
   }
 }
 
-@media(max-width: 767px) {
+@media (max-width: 768px) {
   .hero {
     margin-top: 0px;
     text-align: center;
     button {
       margin-bottom: 1.25rem;
     }
+
   }
 
   .services {

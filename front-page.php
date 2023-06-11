@@ -144,7 +144,8 @@ if (is_page_template('page-templates/no-title.php')) {
 								<p>QuickFunds- Your trusted financial partner for loans. Quick approvals, competitive rates, and personalized solutions to meet your unique needs. Empowering you to achieve your financial goals. Apply online today!</p>
 							</div>
 							<div class="col-md-6">
-								<!-- Widget Here -->
+								<?php echo do_shortcode( '[contact-form-7 id="21" title="Contact form 1"]' ); ?>
+
 							</div>
 						</div>
 						</div>
